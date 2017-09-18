@@ -1,0 +1,31 @@
+<div class="hold-transition skin-blue sidebar-mini" style="height:100%;width:100%">
+    <div class="content-wrapper center">
+
+        <!-- Main content -->
+        <section class="content" style="width:50%">
+            <h1>
+                Simple Reddit-Clone App
+                <small>using Angular and NgRx</small>
+            </h1>
+            <hr />
+            <div class="row">
+                <!-- middle column -->
+                <div class="col-md-12">
+                    <!-- general form elements -->
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Add An Article</h3>
+                        </div>
+                        <!-- /.box-header -->
+                        <app-addlink (addArticle)='addArticle($event)'></app-addlink>
+                    </div>
+                    <!-- /.box -->
+                    <app-linklist [articles]='article | async | sort'></app-linklist>
+
+                </div>
+            </div>
+            <!-- /.row -->
+        </section>
+    </div>
+    <!-- /.content -->
+</div>

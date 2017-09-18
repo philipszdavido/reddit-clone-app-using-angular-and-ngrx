@@ -1,0 +1,11 @@
+<!-- Form Element sizes -->
+<div class="box box-success">
+    <div class="box-header with-border">
+        <h3 class="box-title">Article Links List</h3>
+    </div>
+    <div class="box-body">
+        <app-link *ngFor="let article of articles" [article]='article'></app-link>
+    </div>
+    <!-- /.box-body -->
+</div>
+<!-- /.box -->

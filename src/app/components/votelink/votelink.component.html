@@ -1,0 +1,8 @@
+<ul class="list-inline">
+    <li><a (click)="upVoteArticle($event)" href="javascript:void(0);" class="link-black btn btn-sm btn-success"><i class="fa fa-thumbs-o-up margin-r-5"></i> Upvote</a></li>
+    <li><a (click)="downVoteArticle($event)" href="javascript:void(0);" class="link-black btn btn-danger btn-sm"><i class="fa fa-thumbs-o-down margin-r-5"></i> Downvote</a>
+    </li>
+    <li class="pull-right">
+        <app-points [points]='points'></app-points>
+    </li>
+</ul>

@@ -1,0 +1,18 @@
+<!-- form start -->
+<form [formGroup]='addLinkForm' (ngSubmit)="addLink()">
+    <div class="box-body">
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control input-lg" id="title" placeholder="Write Your Title" formControlName='title'>
+        </div>
+        <div class="form-group">
+            <label for="article">Article Link</label>
+            <input type="text" class="form-control input-lg" id="article" placeholder="Write Your Article Link" formControlName='article'>
+        </div>
+    </div>
+    <!-- /.box-body -->
+
+    <div class="box-footer">
+        <button [disabled]='!addLinkForm.valid' type="submit" class="btn btn-primary">Submit Article</button>
+    </div>
+</form>
