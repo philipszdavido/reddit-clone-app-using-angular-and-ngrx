@@ -3,8 +3,8 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.4.
 
 # How to run
-
-Clone this repo
+https://github.com/philipszdavido/reddit-clone-app-using-angular-and-ngrx
+Clone this repo 
 Run `ng serve` . Navigate to `localhost:4200`.
 
 ## How to deploy for development
