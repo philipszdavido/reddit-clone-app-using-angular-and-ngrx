@@ -8,8 +8,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <li>Run `ng serve` .</li>
 <li>Navigate to `localhost:4200`.</li>
 </ul>
-## How to deploy for development
+
+# How to deploy for development
 Run `ng build`
 
-## Deploying for production
+# Deploying for production
 Run `ng build --prod -aot`
