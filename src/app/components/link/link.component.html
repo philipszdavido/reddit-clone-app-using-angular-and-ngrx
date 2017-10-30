@@ -1,7 +1,7 @@
 <!-- Post -->
 <div class="post">
     <app-linktext [titletext]='article.title' [linktext]='article.link'> </app-linktext>
-    <app-votelink [points]='article.points' (upvote)='upvote($event)' (downvote)='downvote($event)'></app-votelink>
+    <app-votelink [points]='article.points' (upvote)='upvote()' (downvote)='downvote()'></app-votelink>
     <hr />
 </div>
 <!-- /.post -->
